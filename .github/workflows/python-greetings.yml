@@ -27,6 +27,7 @@ jobs:
         run: echo ... install pip dependencies ... 
   deploy-to-dev: 
     runs-on: self-hosted
+    needs: install-pip-deps
 
 
     steps:
@@ -39,7 +40,7 @@ jobs:
   tests-on-dev:
     
     runs-on: self-hosted
-
+    needs: deploy-to-dev
     
     steps:
       
@@ -50,7 +51,7 @@ jobs:
         run: echo ... Running tests on development environment ... 
   deploy-to-staging: 
     runs-on: self-hosted
-
+    needs: tests-on-dev 
 
     steps:
       
@@ -62,7 +63,7 @@ jobs:
   tests-on-staging:
     
     runs-on: self-hosted
-
+    needs: deploy-to-staging
     
     steps:
       
@@ -73,7 +74,7 @@ jobs:
         run: echo ... Running tests on staging environment ... 
   deploy-to-preprod: 
     runs-on: self-hosted
-
+    needs: tests-on-staging
 
     steps:
       
@@ -85,7 +86,7 @@ jobs:
   tests-on-preprod:
     
     runs-on: self-hosted
-
+    needs: deploy-to-preprod
     
     steps:
       
@@ -96,7 +97,7 @@ jobs:
         run: echo ... Running tests on pre-production environment ... 
   deploy-to-prod: 
     runs-on: self-hosted
-
+    needs: tests-on-preprod
 
     steps:
       
@@ -108,7 +109,7 @@ jobs:
   tests-on-prod:
     
     runs-on: self-hosted
-
+    needs: deploy-to-prod
     
     steps:
       
