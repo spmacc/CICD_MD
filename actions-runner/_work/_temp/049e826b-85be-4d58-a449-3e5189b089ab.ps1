@@ -1,0 +1,3 @@
+$ErrorActionPreference = 'stop'
+echo ... Running tests on pre-production environment ...
+if ((Test-Path -LiteralPath variable:\LASTEXITCODE)) { exit $LASTEXITCODE }
