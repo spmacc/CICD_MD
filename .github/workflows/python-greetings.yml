@@ -38,22 +38,12 @@ jobs:
 
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3.5.2
-  
-      - name: Deploy to dev
-        uses: ./.github/actions/deploy
-        with: 
-          port: 7001
-          environment: 'DEV'
-          repository: 'spmacc/python-greetings'
-          path: python-greetings
-  
-      - name: Stop existing service
-        working-directory: python-greetings
-        run: |
-          echo "Stopping existing service..."
-          pm2 delete greetings-app-dev || true
+      
+      - uses: actions/checkout@v4
+
+     
+      - name: Run deploy to dev
+        run: echo ... Deploying to development environment ... 
   tests-on-dev:
     name: tests on dev
     runs-on: self-hosted
@@ -127,7 +117,7 @@ jobs:
       - name: Run deploy to prod
         run: echo ... Deploying to production environment ... 
   tests-on-prod:
-    name: tests on prod
+    name: tests on 
     runs-on: self-hosted
     needs: deploy-to-prod
     
