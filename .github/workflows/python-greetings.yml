@@ -23,11 +23,10 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3.5.2
-        with:
-          repository: spmacc/python-greetings
-          path: python-greetings
+
       - name: outputs info
-        run: echo ... Installing all required dependencies ...     
+        run: echo ... Installing all required dependencies ...   
+        working-directory: python-greetings  
       - name: change directory to python-greetings      
         run: cd python-greetings
         shell: bash
