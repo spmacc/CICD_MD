@@ -1,0 +1,302 @@
+{
+  "after": "55718eb075c76913cb078cf9f53d58991aada710",
+  "base_ref": null,
+  "before": "6f4187077e3fbf207a6f9e1cc7c5b0c3d8d21e59",
+  "commits": [
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "f3b2f9deb2b6ae63fa9031fd27df975ada4f3a32",
+      "message": "added working-directory",
+      "timestamp": "2024-05-04T14:31:20+03:00",
+      "tree_id": "a2d2326ff7447f44dee12445e7376fe33e92747f",
+      "url": "https://github.com/spmacc/CICD_MD/commit/f3b2f9deb2b6ae63fa9031fd27df975ada4f3a32"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "9021f85806cc0fa083d55c52ae20d98f1c76f67e",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:31:28+03:00",
+      "tree_id": "06a6f6cd5cf1342e5fa776e4dc849129b6b88a55",
+      "url": "https://github.com/spmacc/CICD_MD/commit/9021f85806cc0fa083d55c52ae20d98f1c76f67e"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "6d178cc5429ee9e69b3d7a4a4a8518528c4123db",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:31:33+03:00",
+      "tree_id": "5b2a56252a569ca306565f54150754cf90f53c5d",
+      "url": "https://github.com/spmacc/CICD_MD/commit/6d178cc5429ee9e69b3d7a4a4a8518528c4123db"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "5e323154cb6098324f81bfc9650ea11091ed6289",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:31:39+03:00",
+      "tree_id": "77bebf045a96d5c0dd59633ee40c23f62d70672a",
+      "url": "https://github.com/spmacc/CICD_MD/commit/5e323154cb6098324f81bfc9650ea11091ed6289"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "1f73a8a61b0d0b865405d701edbd10c73d9bd42c",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:31:46+03:00",
+      "tree_id": "222c8fc28e72fe6526bcd846bd73a5f4d0369f3e",
+      "url": "https://github.com/spmacc/CICD_MD/commit/1f73a8a61b0d0b865405d701edbd10c73d9bd42c"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "46e30bca06631fb48b0a0d71140093face16cb8d",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:32:07+03:00",
+      "tree_id": "ef90b41b2fe647430ec3cd55dca04079ed2375cc",
+      "url": "https://github.com/spmacc/CICD_MD/commit/46e30bca06631fb48b0a0d71140093face16cb8d"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "dad165e82e7212a843835c424a1d3fd550c5b0fb",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:32:25+03:00",
+      "tree_id": "0c5af957b4c7d22a5b004a005003af696a8e99e8",
+      "url": "https://github.com/spmacc/CICD_MD/commit/dad165e82e7212a843835c424a1d3fd550c5b0fb"
+    },
+    {
+      "author": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "committer": {
+        "email": "spamaacount7@gmail.com",
+        "name": "spamacc",
+        "username": "spmacc"
+      },
+      "distinct": true,
+      "id": "55718eb075c76913cb078cf9f53d58991aada710",
+      "message": "fix",
+      "timestamp": "2024-05-04T14:33:46+03:00",
+      "tree_id": "139de031dd1f04120f23f79abea3aca86c3f859e",
+      "url": "https://github.com/spmacc/CICD_MD/commit/55718eb075c76913cb078cf9f53d58991aada710"
+    }
+  ],
+  "compare": "https://github.com/spmacc/CICD_MD/compare/6f4187077e3f...55718eb075c7",
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "head_commit": {
+    "author": {
+      "email": "spamaacount7@gmail.com",
+      "name": "spamacc",
+      "username": "spmacc"
+    },
+    "committer": {
+      "email": "spamaacount7@gmail.com",
+      "name": "spamacc",
+      "username": "spmacc"
+    },
+    "distinct": true,
+    "id": "55718eb075c76913cb078cf9f53d58991aada710",
+    "message": "fix",
+    "timestamp": "2024-05-04T14:33:46+03:00",
+    "tree_id": "139de031dd1f04120f23f79abea3aca86c3f859e",
+    "url": "https://github.com/spmacc/CICD_MD/commit/55718eb075c76913cb078cf9f53d58991aada710"
+  },
+  "pusher": {
+    "email": "166709544+spmacc@users.noreply.github.com",
+    "name": "spmacc"
+  },
+  "ref": "refs/heads/main",
+  "repository": {
+    "allow_forking": true,
+    "archive_url": "https://api.github.com/repos/spmacc/CICD_MD/{archive_format}{/ref}",
+    "archived": false,
+    "assignees_url": "https://api.github.com/repos/spmacc/CICD_MD/assignees{/user}",
+    "blobs_url": "https://api.github.com/repos/spmacc/CICD_MD/git/blobs{/sha}",
+    "branches_url": "https://api.github.com/repos/spmacc/CICD_MD/branches{/branch}",
+    "clone_url": "https://github.com/spmacc/CICD_MD.git",
+    "collaborators_url": "https://api.github.com/repos/spmacc/CICD_MD/collaborators{/collaborator}",
+    "comments_url": "https://api.github.com/repos/spmacc/CICD_MD/comments{/number}",
+    "commits_url": "https://api.github.com/repos/spmacc/CICD_MD/commits{/sha}",
+    "compare_url": "https://api.github.com/repos/spmacc/CICD_MD/compare/{base}...{head}",
+    "contents_url": "https://api.github.com/repos/spmacc/CICD_MD/contents/{+path}",
+    "contributors_url": "https://api.github.com/repos/spmacc/CICD_MD/contributors",
+    "created_at": 1714818755,
+    "default_branch": "main",
+    "deployments_url": "https://api.github.com/repos/spmacc/CICD_MD/deployments",
+    "description": "Mājas darbs CICD",
+    "disabled": false,
+    "downloads_url": "https://api.github.com/repos/spmacc/CICD_MD/downloads",
+    "events_url": "https://api.github.com/repos/spmacc/CICD_MD/events",
+    "fork": false,
+    "forks": 0,
+    "forks_count": 0,
+    "forks_url": "https://api.github.com/repos/spmacc/CICD_MD/forks",
+    "full_name": "spmacc/CICD_MD",
+    "git_commits_url": "https://api.github.com/repos/spmacc/CICD_MD/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/spmacc/CICD_MD/git/refs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/spmacc/CICD_MD/git/tags{/sha}",
+    "git_url": "git://github.com/spmacc/CICD_MD.git",
+    "has_discussions": false,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": null,
+    "hooks_url": "https://api.github.com/repos/spmacc/CICD_MD/hooks",
+    "html_url": "https://github.com/spmacc/CICD_MD",
+    "id": 795881441,
+    "is_template": false,
+    "issue_comment_url": "https://api.github.com/repos/spmacc/CICD_MD/issues/comments{/number}",
+    "issue_events_url": "https://api.github.com/repos/spmacc/CICD_MD/issues/events{/number}",
+    "issues_url": "https://api.github.com/repos/spmacc/CICD_MD/issues{/number}",
+    "keys_url": "https://api.github.com/repos/spmacc/CICD_MD/keys{/key_id}",
+    "labels_url": "https://api.github.com/repos/spmacc/CICD_MD/labels{/name}",
+    "language": "TypeScript",
+    "languages_url": "https://api.github.com/repos/spmacc/CICD_MD/languages",
+    "license": null,
+    "master_branch": "main",
+    "merges_url": "https://api.github.com/repos/spmacc/CICD_MD/merges",
+    "milestones_url": "https://api.github.com/repos/spmacc/CICD_MD/milestones{/number}",
+    "mirror_url": null,
+    "name": "CICD_MD",
+    "node_id": "R_kgDOL3Av4Q",
+    "notifications_url": "https://api.github.com/repos/spmacc/CICD_MD/notifications{?since,all,participating}",
+    "open_issues": 0,
+    "open_issues_count": 0,
+    "owner": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/166709544?v=4",
+      "email": "166709544+spmacc@users.noreply.github.com",
+      "events_url": "https://api.github.com/users/spmacc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/spmacc/followers",
+      "following_url": "https://api.github.com/users/spmacc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/spmacc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/spmacc",
+      "id": 166709544,
+      "login": "spmacc",
+      "name": "spmacc",
+      "node_id": "U_kgDOCe_JKA",
+      "organizations_url": "https://api.github.com/users/spmacc/orgs",
+      "received_events_url": "https://api.github.com/users/spmacc/received_events",
+      "repos_url": "https://api.github.com/users/spmacc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/spmacc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/spmacc/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/spmacc"
+    },
+    "private": false,
+    "pulls_url": "https://api.github.com/repos/spmacc/CICD_MD/pulls{/number}",
+    "pushed_at": 1714822435,
+    "releases_url": "https://api.github.com/repos/spmacc/CICD_MD/releases{/id}",
+    "size": 86473,
+    "ssh_url": "git@github.com:spmacc/CICD_MD.git",
+    "stargazers": 0,
+    "stargazers_count": 0,
+    "stargazers_url": "https://api.github.com/repos/spmacc/CICD_MD/stargazers",
+    "statuses_url": "https://api.github.com/repos/spmacc/CICD_MD/statuses/{sha}",
+    "subscribers_url": "https://api.github.com/repos/spmacc/CICD_MD/subscribers",
+    "subscription_url": "https://api.github.com/repos/spmacc/CICD_MD/subscription",
+    "svn_url": "https://github.com/spmacc/CICD_MD",
+    "tags_url": "https://api.github.com/repos/spmacc/CICD_MD/tags",
+    "teams_url": "https://api.github.com/repos/spmacc/CICD_MD/teams",
+    "topics": [],
+    "trees_url": "https://api.github.com/repos/spmacc/CICD_MD/git/trees{/sha}",
+    "updated_at": "2024-05-04T11:29:57Z",
+    "url": "https://github.com/spmacc/CICD_MD",
+    "visibility": "public",
+    "watchers": 0,
+    "watchers_count": 0,
+    "web_commit_signoff_required": false
+  },
+  "sender": {
+    "avatar_url": "https://avatars.githubusercontent.com/u/166709544?v=4",
+    "events_url": "https://api.github.com/users/spmacc/events{/privacy}",
+    "followers_url": "https://api.github.com/users/spmacc/followers",
+    "following_url": "https://api.github.com/users/spmacc/following{/other_user}",
+    "gists_url": "https://api.github.com/users/spmacc/gists{/gist_id}",
+    "gravatar_id": "",
+    "html_url": "https://github.com/spmacc",
+    "id": 166709544,
+    "login": "spmacc",
+    "node_id": "U_kgDOCe_JKA",
+    "organizations_url": "https://api.github.com/users/spmacc/orgs",
+    "received_events_url": "https://api.github.com/users/spmacc/received_events",
+    "repos_url": "https://api.github.com/users/spmacc/repos",
+    "site_admin": false,
+    "starred_url": "https://api.github.com/users/spmacc/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/spmacc/subscriptions",
+    "type": "User",
+    "url": "https://api.github.com/users/spmacc"
+  }
+}
