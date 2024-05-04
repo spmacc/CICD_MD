@@ -27,7 +27,7 @@ jobs:
 
      
       - name: Run install pip-deps
-        run: echo ... install-pip-deps success ... 
+        run: echo ... Installing all required dependencies ... 
   deploy-to-dev: 
     runs-on: self-hosted
 
@@ -38,7 +38,7 @@ jobs:
 
      
       - name: Run deploy to dev
-        run: echo ... deploy-to-dev success ... 
+        run: echo ... Deploying to development environment ... 
   tests-on-dev:
     
     runs-on: self-hosted
@@ -50,7 +50,7 @@ jobs:
 
      
       - name: Run tests on dev
-        run: echo ... tests-on-dev success ... 
+        run: echo ... Running tests on development environment ... 
   deploy-to-staging: 
     runs-on: self-hosted
 
@@ -61,7 +61,7 @@ jobs:
 
      
       - name: Run deploy to staging
-        run: echo ... deploy-to-staging success ... 
+        run: echo ... Deploying to staging environment ... 
   tests-on-staging:
     
     runs-on: self-hosted
@@ -73,7 +73,7 @@ jobs:
 
      
       - name: Run tests on staging
-        run: echo ... tests-on-staging success ... 
+        run: echo ... Running tests on staging environment ... 
   deploy-to-preprod: 
     runs-on: self-hosted
 
@@ -84,7 +84,7 @@ jobs:
 
      
       - name: Run deploy to preprod
-        run: echo ... deploy-to-preprod success ... 
+        run: echo ... Deploying to pre-production environment ... 
   tests-on-preprod:
     
     runs-on: self-hosted
@@ -96,7 +96,7 @@ jobs:
 
      
       - name: Run tests on preprod
-        run: echo ... tests-on-preprod success ... 
+        run: echo ... Running tests on pre-production environment ... 
   deploy-to-prod: 
     runs-on: self-hosted
 
@@ -107,7 +107,7 @@ jobs:
 
      
       - name: Run deploy to prod
-        run: echo ... deploy-to-prod success ... 
+        run: echo ... Deploying to production environment ... 
   tests-on-prod:
     
     runs-on: self-hosted
@@ -119,4 +119,4 @@ jobs:
 
      
       - name: Run tests on prod
-        run: echo ... tests-on-prod success ... 
+        run: echo ... Running tests on production environment ... 
