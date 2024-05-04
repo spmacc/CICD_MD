@@ -1,0 +1,50 @@
+﻿2024-05-04T11:31:18.1378074Z ##[group]Run actions/checkout@v4
+2024-05-04T11:31:18.1378677Z with:
+2024-05-04T11:31:18.1379005Z   repository: spmacc/CICD_MD
+2024-05-04T11:31:18.1379758Z   token: ***
+2024-05-04T11:31:18.1380112Z   ssh-strict: true
+2024-05-04T11:31:18.1380465Z   ssh-user: git
+2024-05-04T11:31:18.1380848Z   persist-credentials: true
+2024-05-04T11:31:18.1381279Z   clean: true
+2024-05-04T11:31:18.1381653Z   sparse-checkout-cone-mode: true
+2024-05-04T11:31:18.1382137Z   fetch-depth: 1
+2024-05-04T11:31:18.1382532Z   fetch-tags: false
+2024-05-04T11:31:18.1382903Z   show-progress: true
+2024-05-04T11:31:18.1383288Z   lfs: false
+2024-05-04T11:31:18.1383622Z   submodules: false
+2024-05-04T11:31:18.1384014Z   set-safe-directory: true
+2024-05-04T11:31:18.1384431Z ##[endgroup]
+2024-05-04T11:31:18.3510241Z Syncing repository: spmacc/CICD_MD
+2024-05-04T11:31:18.3512022Z ##[group]Getting Git version info
+2024-05-04T11:31:18.3513263Z Working directory is 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:31:18.3667685Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-05-04T11:31:18.3894041Z git version 2.44.0.windows.1
+2024-05-04T11:31:18.3938564Z ##[endgroup]
+2024-05-04T11:31:18.3953146Z Copying 'C:\Users\Herotex\.gitconfig' to 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\2a92c5f0-14b7-470b-ad45-17e44e47670d\.gitconfig'
+2024-05-04T11:31:18.3978249Z Temporarily overriding HOME='C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\2a92c5f0-14b7-470b-ad45-17e44e47670d' before making global git config changes
+2024-05-04T11:31:18.3980333Z Adding repository directory to the temporary git global config as a safe directory
+2024-05-04T11:31:18.3987252Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:31:18.4267394Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-05-04T11:31:18.4484989Z https://github.com/spmacc/CICD_MD
+2024-05-04T11:31:18.4526177Z ##[group]Removing previously created refs, to avoid conflicts
+2024-05-04T11:31:18.4533475Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-05-04T11:31:18.4767209Z refs/heads/main
+2024-05-04T11:31:18.4803178Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-05-04T11:31:19.0202649Z HEAD is now at 6f41870 added repository
+2024-05-04T11:31:19.0783457Z ##[endgroup]
+2024-05-04T11:31:19.0790521Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-05-04T11:31:19.5033722Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/CICD_MD/CICD_MD'
+2024-05-04T11:31:19.5084092Z Bad Submodules found, removing existing files
+2024-05-04T11:31:19.5084776Z ##[group]Cleaning the repository
+2024-05-04T11:31:19.5091409Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-05-04T11:31:19.5362024Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-05-04T11:31:19.5701881Z HEAD is now at 6f41870 added repository
+2024-05-04T11:31:19.5732765Z ##[endgroup]
+2024-05-04T11:31:19.5766004Z ##[warning]Unable to clean or reset the repository. The repository will be recreated instead.
+2024-05-04T11:31:19.5769863Z Deleting the contents of 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:31:19.6054076Z ##[group]Initializing the repository
+2024-05-04T11:31:19.6062870Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:31:19.6454271Z Initialized empty Git repository in C:/Users/Herotex/Documents/Cicd/CICD_MD/actions-runner/_work/CICD_MD/CICD_MD/.git/
+2024-05-04T11:31:19.6497484Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/spmacc/CICD_MD
+2024-05-04T11:31:19.6787577Z ##[endgroup]
+2024-05-04T11:31:19.6788154Z ##[group]Disabling au

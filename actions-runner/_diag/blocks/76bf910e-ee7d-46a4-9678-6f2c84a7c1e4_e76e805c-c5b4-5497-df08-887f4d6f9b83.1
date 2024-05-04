@@ -1,0 +1,56 @@
+﻿2024-05-04T11:31:16.5433039Z Current runner version: '2.316.0'
+2024-05-04T11:31:16.5439465Z Runner name: 'DESKTOP-C8LD51K'
+2024-05-04T11:31:16.5439980Z Runner group name: 'Default'
+2024-05-04T11:31:16.5440612Z Machine name: 'DESKTOP-C8LD51K'
+2024-05-04T11:31:16.5443806Z ##[group]GITHUB_TOKEN Permissions
+2024-05-04T11:31:16.5445257Z Contents: read
+2024-05-04T11:31:16.5445606Z Metadata: read
+2024-05-04T11:31:16.5445923Z Packages: read
+2024-05-04T11:31:16.5446272Z ##[endgroup]
+2024-05-04T11:31:16.5448778Z Secret source: Actions
+2024-05-04T11:31:16.5449236Z Prepare workflow directory
+2024-05-04T11:31:16.6277805Z Prepare all required actions
+2024-05-04T11:31:16.6429370Z Getting action download info
+2024-05-04T11:31:16.8681107Z Download action repository 'actions/checkout@v4' (SHA:0ad4b8fadaa221de15dcec353f45205ec38ea70b)
+2024-05-04T11:31:18.0260850Z Complete job name: deploy-to-staging
+2024-05-04T11:31:18.1378109Z ##[group]Run actions/checkout@v4
+2024-05-04T11:31:18.1378681Z with:
+2024-05-04T11:31:18.1379008Z   repository: spmacc/CICD_MD
+2024-05-04T11:31:18.1379761Z   token: ***
+2024-05-04T11:31:18.1380116Z   ssh-strict: true
+2024-05-04T11:31:18.1380477Z   ssh-user: git
+2024-05-04T11:31:18.1380852Z   persist-credentials: true
+2024-05-04T11:31:18.1381282Z   clean: true
+2024-05-04T11:31:18.1381656Z   sparse-checkout-cone-mode: true
+2024-05-04T11:31:18.1382140Z   fetch-depth: 1
+2024-05-04T11:31:18.1382535Z   fetch-tags: false
+2024-05-04T11:31:18.1382906Z   show-progress: true
+2024-05-04T11:31:18.1383290Z   lfs: false
+2024-05-04T11:31:18.1383632Z   submodules: false
+2024-05-04T11:31:18.1384017Z   set-safe-directory: true
+2024-05-04T11:31:18.1384434Z ##[endgroup]
+2024-05-04T11:31:18.3510280Z Syncing repository: spmacc/CICD_MD
+2024-05-04T11:31:18.3512030Z ##[group]Getting Git version info
+2024-05-04T11:31:18.3513338Z Working directory is 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:31:18.3667746Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-05-04T11:31:18.3894092Z git version 2.44.0.windows.1
+2024-05-04T11:31:18.3938604Z ##[endgroup]
+2024-05-04T11:31:18.3953181Z Copying 'C:\Users\Herotex\.gitconfig' to 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\2a92c5f0-14b7-470b-ad45-17e44e47670d\.gitconfig'
+2024-05-04T11:31:18.3978290Z Temporarily overriding HOME='C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\2a92c5f0-14b7-470b-ad45-17e44e47670d' before making global git config changes
+2024-05-04T11:31:18.3980337Z Adding repository directory to the temporary git global config as a safe directory
+2024-05-04T11:31:18.3987310Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:31:18.4267476Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-05-04T11:31:18.4485048Z https://github.com/spmacc/CICD_MD
+2024-05-04T11:31:18.4526214Z ##[group]Removing previously created refs, to avoid conflicts
+2024-05-04T11:31:18.4533483Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-05-04T11:31:18.4767265Z refs/heads/main
+2024-05-04T11:31:18.4803202Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-05-04T11:31:19.0202691Z HEAD is now at 6f41870 added repository
+2024-05-04T11:31:19.0783483Z ##[endgroup]
+2024-05-04T11:31:19.0790538Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-05-04T11:31:19.5033762Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/CICD_MD/CICD_MD'
+2024-05-04T11:31:19.5084127Z Bad Submodules found, removing existing files
+2024-05-04T11:31:19.5084780Z ##[group]Cleaning the repository
+2024-05-04T11:31:19.5091415Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-05-04T11:31:19.5362082Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-05-04T11:31:19.5701923Z HEAD is now at 6f41870 a
