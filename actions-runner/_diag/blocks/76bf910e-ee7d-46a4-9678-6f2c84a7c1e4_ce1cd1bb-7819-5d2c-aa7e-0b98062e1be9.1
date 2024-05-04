@@ -1,0 +1,71 @@
+﻿2024-05-04T11:31:36.1905604Z ##[group]Run actions/checkout@v3.5.2
+2024-05-04T11:31:36.1906313Z with:
+2024-05-04T11:31:36.1906672Z   repository: spmacc/python-greetings
+2024-05-04T11:31:36.1907536Z   token: ***
+2024-05-04T11:31:36.1907795Z   ssh-strict: true
+2024-05-04T11:31:36.1908050Z   persist-credentials: true
+2024-05-04T11:31:36.1908329Z   clean: true
+2024-05-04T11:31:36.1908549Z   fetch-depth: 1
+2024-05-04T11:31:36.1908901Z   lfs: false
+2024-05-04T11:31:36.1909115Z   submodules: false
+2024-05-04T11:31:36.1909369Z   set-safe-directory: true
+2024-05-04T11:31:36.1909646Z ##[endgroup]
+2024-05-04T11:31:36.4262719Z Syncing repository: spmacc/python-greetings
+2024-05-04T11:31:36.4264323Z ##[group]Getting Git version info
+2024-05-04T11:31:36.4265178Z Working directory is 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:31:36.4461132Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-05-04T11:31:36.4694411Z git version 2.44.0.windows.1
+2024-05-04T11:31:36.4739150Z ##[endgroup]
+2024-05-04T11:31:36.4757352Z Copying 'C:\Users\Herotex\.gitconfig' to 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\27c8a6ab-dcdb-4c47-b393-d4feaabb4d13\.gitconfig'
+2024-05-04T11:31:36.4785755Z Temporarily overriding HOME='C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\27c8a6ab-dcdb-4c47-b393-d4feaabb4d13' before making global git config changes
+2024-05-04T11:31:36.4787692Z Adding repository directory to the temporary git global config as a safe directory
+2024-05-04T11:31:36.4797529Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:31:36.5116073Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-05-04T11:31:36.5350604Z https://github.com/spmacc/CICD_MD
+2024-05-04T11:31:36.5383744Z Deleting the contents of 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:31:36.5749953Z ##[group]Initializing the repository
+2024-05-04T11:31:36.5757797Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:31:36.6127488Z Initialized empty Git repository in C:/Users/Herotex/Documents/Cicd/CICD_MD/actions-runner/_work/CICD_MD/CICD_MD/.git/
+2024-05-04T11:31:36.6167236Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/spmacc/python-greetings
+2024-05-04T11:31:36.6459560Z ##[endgroup]
+2024-05-04T11:31:36.6460085Z ##[group]Disabling automatic garbage collection
+2024-05-04T11:31:36.6469368Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-05-04T11:31:36.6763134Z ##[endgroup]
+2024-05-04T11:31:36.6763795Z ##[group]Setting up auth
+2024-05-04T11:31:36.6774931Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-05-04T11:31:36.7032715Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-05-04T11:31:37.1499637Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-05-04T11:31:37.1770758Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2024-05-04T11:31:37.5935410Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2024-05-04T11:31:37.6217509Z ##[endgroup]
+2024-05-04T11:31:37.6218182Z ##[group]Determining the default branch
+2024-05-04T11:31:37.6221113Z Retrieving the default branch name
+2024-05-04T11:31:38.0361648Z Default branch 'main'
+2024-05-04T11:31:38.0362750Z ##[endgroup]
+2024-05-04T11:31:38.0365383Z ##[group]Fetching the repository
+2024-05-04T11:31:38.0374501Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +refs/heads/main:refs/remotes/origin/main
+2024-05-04T11:31:38.8692247Z remote: Enumerating objects: 5, done.        
+2024-05-04T11:31:38.8692933Z remote: Counting objects:  20% (1/5)        
+2024-05-04T11:31:38.8693423Z remote: Counting objects:  40% (2/5)        
+2024-05-04T11:31:38.8693927Z remote: Counting objects:  60% (3/5)        
+2024-05-04T11:31:38.8694402Z remote: Counting objects:  80% (4/5)        
+2024-05-04T11:31:38.8694795Z remote: Counting objects: 100% (5/5)        
+2024-05-04T11:31:38.8695202Z remote: Counting objects: 100% (5/5), done.        
+2024-05-04T11:31:38.8695633Z remote: Compressing objects:  25% (1/4)        
+2024-05-04T11:31:38.8696038Z remote: Compressing objects:  50% (2/4)        
+2024-05-04T11:31:38.8697260Z remote: Compressing objects:  75% (3/4)        
+2024-05-04T11:31:38.8697905Z remote: Compressing objects: 100% (4/4)        
+2024-05-04T11:31:38.8698535Z remote: Compressing objects: 100% (4/4), done.        
+2024-05-04T11:31:38.8699654Z remote: Total 5 (delta 0), reused 3 (delta 0), pack-reused 0        
+2024-05-04T11:31:38.9051953Z From https://github.com/spmacc/python-greetings
+2024-05-04T11:31:38.9052507Z  * [new branch]      main       -> origin/main
+2024-05-04T11:31:38.9215949Z ##[endgroup]
+2024-05-04T11:31:38.9216395Z ##[group]Determining the checkout info
+2024-05-04T11:31:38.9217437Z ##[endgroup]
+2024-05-04T11:31:38.9217832Z ##[group]Checking out the ref
+2024-05-04T11:31:38.9226203Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2024-05-04T11:31:38.9613121Z branch 'main' set up to track 'origin/main'.
+2024-05-04T11:31:38.9613793Z Switched to a new branch 'main'
+2024-05-04T11:31:38.9645429Z ##[endgroup]
+2024-05-04T11:31:38.9934203Z [command]"C:\Program Files\Git\cmd\git.exe" log -1 --format='%H'
+2024-05-04T11:31:39.0192693Z 'a07439908a5bf5832b16178e272c07247e961d66'
