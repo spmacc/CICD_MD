@@ -1,0 +1,75 @@
+﻿2024-05-04T11:17:06.4752123Z ##[group]Run actions/checkout@v4
+2024-05-04T11:17:06.4752891Z with:
+2024-05-04T11:17:06.4753467Z   repository: spmacc/CICD_MD
+2024-05-04T11:17:06.4815040Z   token: ***
+2024-05-04T11:17:06.4815465Z   ssh-strict: true
+2024-05-04T11:17:06.4815799Z   ssh-user: git
+2024-05-04T11:17:06.4816153Z   persist-credentials: true
+2024-05-04T11:17:06.4816609Z   clean: true
+2024-05-04T11:17:06.4816960Z   sparse-checkout-cone-mode: true
+2024-05-04T11:17:06.4817417Z   fetch-depth: 1
+2024-05-04T11:17:06.4817748Z   fetch-tags: false
+2024-05-04T11:17:06.4818094Z   show-progress: true
+2024-05-04T11:17:06.4818444Z   lfs: false
+2024-05-04T11:17:06.4818746Z   submodules: false
+2024-05-04T11:17:06.4819113Z   set-safe-directory: true
+2024-05-04T11:17:06.4819527Z ##[endgroup]
+2024-05-04T11:17:06.7155521Z Syncing repository: spmacc/CICD_MD
+2024-05-04T11:17:06.7157259Z ##[group]Getting Git version info
+2024-05-04T11:17:06.7158479Z Working directory is 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:17:06.7337661Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-05-04T11:17:06.7576241Z git version 2.44.0.windows.1
+2024-05-04T11:17:06.7620016Z ##[endgroup]
+2024-05-04T11:17:06.7634587Z Copying 'C:\Users\Herotex\.gitconfig' to 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\84e03579-169e-401d-948d-0cd72175bfea\.gitconfig'
+2024-05-04T11:17:06.7659771Z Temporarily overriding HOME='C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\84e03579-169e-401d-948d-0cd72175bfea' before making global git config changes
+2024-05-04T11:17:06.7662077Z Adding repository directory to the temporary git global config as a safe directory
+2024-05-04T11:17:06.7668540Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:17:06.7960012Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-05-04T11:17:06.8189915Z https://github.com/spmacc/CICD_MD
+2024-05-04T11:17:06.8236198Z ##[group]Removing previously created refs, to avoid conflicts
+2024-05-04T11:17:06.8243303Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-05-04T11:17:06.8476796Z refs/heads/main
+2024-05-04T11:17:06.8513611Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-05-04T11:17:06.8835542Z HEAD is now at 53780e4 runner added
+2024-05-04T11:17:06.9404457Z ##[endgroup]
+2024-05-04T11:17:06.9410981Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-05-04T11:17:07.4070437Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/CICD_MD/CICD_MD'
+2024-05-04T11:17:07.4122020Z Bad Submodules found, removing existing files
+2024-05-04T11:17:07.4122686Z ##[group]Cleaning the repository
+2024-05-04T11:17:07.4130372Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-05-04T11:17:07.4397355Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-05-04T11:17:07.4732296Z HEAD is now at 53780e4 runner added
+2024-05-04T11:17:07.4764428Z ##[endgroup]
+2024-05-04T11:17:07.4782583Z ##[warning]Unable to clean or reset the repository. The repository will be recreated instead.
+2024-05-04T11:17:07.4785769Z Deleting the contents of 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:17:07.5080155Z ##[group]Initializing the repository
+2024-05-04T11:17:07.5088456Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:17:07.5452284Z Initialized empty Git repository in C:/Users/Herotex/Documents/Cicd/CICD_MD/actions-runner/_work/CICD_MD/CICD_MD/.git/
+2024-05-04T11:17:07.5492168Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/spmacc/CICD_MD
+2024-05-04T11:17:07.5799818Z ##[endgroup]
+2024-05-04T11:17:07.5800366Z ##[group]Disabling automatic garbage collection
+2024-05-04T11:17:07.5803056Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-05-04T11:17:07.6046911Z ##[endgroup]
+2024-05-04T11:17:07.6047552Z ##[group]Setting up auth
+2024-05-04T11:17:07.6058041Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-05-04T11:17:07.6308783Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-05-04T11:17:08.0954661Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-05-04T11:17:08.1236275Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2024-05-04T11:17:08.5560569Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2024-05-04T11:17:08.5858089Z ##[endgroup]
+2024-05-04T11:17:08.5858766Z ##[group]Fetching the repository
+2024-05-04T11:17:08.5875032Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +16dc13b2c3925dda1026dc9d6c13d27c275945a7:refs/remotes/origin/main
+2024-05-04T11:17:13.1632623Z From https://github.com/spmacc/CICD_MD
+2024-05-04T11:17:13.1633704Z  * [new ref]         16dc13b2c3925dda1026dc9d6c13d27c275945a7 -> origin/main
+2024-05-04T11:17:13.1784646Z ##[endgroup]
+2024-05-04T11:17:13.1785132Z ##[group]Determining the checkout info
+2024-05-04T11:17:13.1787201Z ##[endgroup]
+2024-05-04T11:17:13.1795723Z [command]"C:\Program Files\Git\cmd\git.exe" sparse-checkout disable
+2024-05-04T11:17:13.2083109Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --unset-all extensions.worktreeConfig
+2024-05-04T11:17:13.2339834Z ##[group]Checking out the ref
+2024-05-04T11:17:13.2348328Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2024-05-04T11:17:13.7315637Z branch 'main' set up to track 'origin/main'.
+2024-05-04T11:17:13.7316396Z Switched to a new branch 'main'
+2024-05-04T11:17:13.7669188Z ##[endgroup]
+2024-05-04T11:17:13.7676975Z [command]"C:\Program Files\Git\cmd\git.exe" log -1 --format='%H'
+2024-05-04T11:17:13.7901404Z '16dc13b2c3925dda1026dc9d6c13d27c275945a7'
