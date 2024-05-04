@@ -23,18 +23,8 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3.5.2
-        with:
-          repository: 'spmacc/python-greetings'
-      - name: print output
-        run: echo ... Installing all required dependencies ...   
-      - name: change directory to python-greetings
-        working-directory: python-greetings        
-        run: cd python-greetings
-        shell: bash
-      - name: Run install pip-deps
-        working-directory: python-greetings  
-        run: pip3 install -r requirements.txt
-        shell: bash 
+      - name: install pip-dependencies
+        run: echo ... install pip dependencies ... 
   deploy-to-dev: 
     runs-on: self-hosted
 
