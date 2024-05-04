@@ -1,0 +1,57 @@
+﻿2024-05-04T11:35:58.5201204Z Current runner version: '2.316.0'
+2024-05-04T11:35:58.5265923Z Runner name: 'DESKTOP-C8LD51K'
+2024-05-04T11:35:58.5266461Z Runner group name: 'Default'
+2024-05-04T11:35:58.5267094Z Machine name: 'DESKTOP-C8LD51K'
+2024-05-04T11:35:58.5270193Z ##[group]GITHUB_TOKEN Permissions
+2024-05-04T11:35:58.5271898Z Contents: read
+2024-05-04T11:35:58.5272204Z Metadata: read
+2024-05-04T11:35:58.5272502Z Packages: read
+2024-05-04T11:35:58.5272795Z ##[endgroup]
+2024-05-04T11:35:58.5275446Z Secret source: Actions
+2024-05-04T11:35:58.5275942Z Prepare workflow directory
+2024-05-04T11:35:58.6057059Z Prepare all required actions
+2024-05-04T11:35:58.6212263Z Getting action download info
+2024-05-04T11:35:58.8496066Z Download action repository 'actions/checkout@v4' (SHA:0ad4b8fadaa221de15dcec353f45205ec38ea70b)
+2024-05-04T11:36:00.0438356Z Complete job name: tests-on-prod
+2024-05-04T11:36:00.2274624Z ##[group]Run actions/checkout@v4
+2024-05-04T11:36:00.2275206Z with:
+2024-05-04T11:36:00.2275539Z   repository: spmacc/CICD_MD
+2024-05-04T11:36:00.2276303Z   token: ***
+2024-05-04T11:36:00.2276656Z   ssh-strict: true
+2024-05-04T11:36:00.2277014Z   ssh-user: git
+2024-05-04T11:36:00.2277385Z   persist-credentials: true
+2024-05-04T11:36:00.2277806Z   clean: true
+2024-05-04T11:36:00.2278195Z   sparse-checkout-cone-mode: true
+2024-05-04T11:36:00.2278654Z   fetch-depth: 1
+2024-05-04T11:36:00.2278952Z   fetch-tags: false
+2024-05-04T11:36:00.2279298Z   show-progress: true
+2024-05-04T11:36:00.2279661Z   lfs: false
+2024-05-04T11:36:00.2280001Z   submodules: false
+2024-05-04T11:36:00.2280391Z   set-safe-directory: true
+2024-05-04T11:36:00.2280820Z ##[endgroup]
+2024-05-04T11:36:00.4667788Z Syncing repository: spmacc/CICD_MD
+2024-05-04T11:36:00.4671011Z ##[group]Getting Git version info
+2024-05-04T11:36:00.4672136Z Working directory is 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD'
+2024-05-04T11:36:00.4784847Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-05-04T11:36:00.5052992Z git version 2.44.0.windows.1
+2024-05-04T11:36:00.5097069Z ##[endgroup]
+2024-05-04T11:36:00.5113145Z Copying 'C:\Users\Herotex\.gitconfig' to 'C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\80e9e5e5-b14e-415e-b5a2-0aeca8f05f56\.gitconfig'
+2024-05-04T11:36:00.5138110Z Temporarily overriding HOME='C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\_temp\80e9e5e5-b14e-415e-b5a2-0aeca8f05f56' before making global git config changes
+2024-05-04T11:36:00.5139956Z Adding repository directory to the temporary git global config as a safe directory
+2024-05-04T11:36:00.5151218Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\Herotex\Documents\Cicd\CICD_MD\actions-runner\_work\CICD_MD\CICD_MD
+2024-05-04T11:36:00.5476506Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-05-04T11:36:00.5737875Z https://github.com/spmacc/CICD_MD
+2024-05-04T11:36:00.5787631Z ##[group]Removing previously created refs, to avoid conflicts
+2024-05-04T11:36:00.5794762Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-05-04T11:36:00.6061994Z refs/heads/main
+2024-05-04T11:36:00.6101195Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-05-04T11:36:01.3465113Z HEAD is now at 55718eb fix
+2024-05-04T11:36:01.5483308Z ##[endgroup]
+2024-05-04T11:36:01.5491924Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-05-04T11:36:02.0792769Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/CICD_MD/CICD_MD'
+2024-05-04T11:36:02.0874514Z Bad Submodules found, removing existing files
+2024-05-04T11:36:02.0875156Z ##[group]Cleaning the repository
+2024-05-04T11:36:02.0883291Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-05-04T11:36:02.1181420Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-05-04T11:36:02.1567355Z HEAD is now at 55718eb fix
+2024-05-04T11
